@@ -2,11 +2,11 @@
 1. [General Info](#general-info)
 2. [Languages](#languages)
 3. [Acceptance Criteria](#acceptance-criteria)
+4. [Link To Deployed Action](#link-to-deployed-action)
 ### General Info
 ***
 This is an attempt to solve module challenge 4 of UoB bootcamp. 
 ### Screenshot![Screenshot (9)](https://user-images.githubusercontent.com/116799866/205111807-1d7e4f4f-1891-465e-9e55-499a3dde6355.png)
-
 
 ## Languages
 ***
@@ -30,5 +30,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 ```
-
+## Link to Deployed Action
+***
+https://indiataylor1.github.io/timed-coding-quiz/
 

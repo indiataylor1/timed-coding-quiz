@@ -49,7 +49,6 @@ function printQuestion(i) {
 // Funtion to print question end
 
 // Function to check answer start
-
 function checkAnswer(option) {
     attempt++;
 
@@ -72,7 +71,7 @@ function checkAnswer(option) {
 }
 // Function to check answer end
 
-// Function for the next button START
+// Function for 'next' button START
 function showNext(){
 
     if(index >= (questions.length - 1) ){
@@ -88,7 +87,7 @@ function showNext(){
     printQuestion(index);
 
 }
-// Function for the next button END
+// Function for 'next' button END
 
 // Function for result START
 function showResult() {

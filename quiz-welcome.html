@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Animl. Quiz</title>
+        <link rel="stylesheet" href="/css/quiz-style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+        <!--favicon needs to go in here-->
+
+
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <img src="/img/logo.png" class="nav-logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">QUIZ</a></li>
+                <li><a href="#">FACTS</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">MIX</a></li>
+            </ul>
+         </nav>
+        
+
+
+        <div class="container">
+            <div class="leftSide">
+                <img src="/img/logo.png" alt="quiz logo" class="tilt"/>
+            </div>
+            
+            <div class="rightSide">
+                <h2>Test your knowledge!</h2>
+                
+                <ul>
+                    <li>10 Questions</li>
+                    <li>10 seconds each</li>
+                    <li>200 seconds on the clock</li>
+                    <li>See your results</li>
+                </ul>
+
+                <a href="quiz-questions.html"> Let's Go!</a>
+                
+
+            </div>
+        </div>
+
+
+
+
+    </body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/tilt.min.js"></script>
+
+    <script>
+        $(".tilt").tilt({
+            scale: 1.2,
+        });
+    </script>
+
+   
+
+
+</html>
